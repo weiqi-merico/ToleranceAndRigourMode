@@ -1311,13 +1311,4 @@ public class SettingsPage extends Page {
     	
     	return lineNum;
     }
-	
-	@AutoIntercept
-    public String getAnalysisSettingsInfoTwo4SystemIntegration() {
-    	Utilities.waitForControlPresent(driver, By.id(SettingsControls.system_configurations_analysis_settings_scala_textbox_id));
-    	String lineNum = driver.findElement(By.id(SettingsControls.system_configurations_analysis_settings_scala_textbox_id)).getAttribute("value").trim();
-    	System.out.println("Scala Max lines per function for Analysis Settings is: " + lineNum);
-    	
-    	return lineNum;
-    }
 }
