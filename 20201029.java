@@ -27,7 +27,7 @@ public class LogoutPage extends Page {
 
 	@AutoIntercept
 	public void logout1(){
-//		Utilities.movePageToTop(driver);
+		Utilities.movePageToTop(driver);
 		{
 	      WebElement element = driver.findElement(By.cssSelector(LogoutControls.User_Account_Css));
 	      Actions builder = new Actions(driver);
@@ -41,7 +41,7 @@ public class LogoutPage extends Page {
 	
 	@AutoIntercept
 	public void logout2(){
-//		Utilities.movePageToTop(driver);
+		Utilities.movePageToTop(driver);
 		{
 	      WebElement element = driver.findElement(By.cssSelector(LogoutControls.User_Account_Css));
 	      Actions builder = new Actions(driver);
@@ -55,7 +55,7 @@ public class LogoutPage extends Page {
 
 	@AutoIntercept
 	public void logout3(){
-//		Utilities.movePageToTop(driver);
+		Utilities.movePageToTop(driver);
 		{
 	      WebElement element = driver.findElement(By.cssSelector(LogoutControls.User_Account_Css));
 	      Actions builder = new Actions(driver);
@@ -69,7 +69,7 @@ public class LogoutPage extends Page {
 	
 	@AutoIntercept
 	public void logout4(){
-//		Utilities.movePageToTop(driver);
+		Utilities.movePageToTop(driver);
 		{
 	      WebElement element = driver.findElement(By.cssSelector(LogoutControls.User_Account_Css));
 	      Actions builder = new Actions(driver);
@@ -83,7 +83,7 @@ public class LogoutPage extends Page {
 	
 	@AutoIntercept
 	public void logout5(){
-//		Utilities.movePageToTop(driver);
+		Utilities.movePageToTop(driver);
 		{
 	      WebElement element = driver.findElement(By.cssSelector(LogoutControls.User_Account_Css));
 	      Actions builder = new Actions(driver);
